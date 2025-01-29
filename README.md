@@ -72,7 +72,7 @@ Prerequisites:
 #### Resolve a shortened URL
 
 ```bash
-  curl -X GET http://localhost:3000/mycustom
+  curl -X GET http://localhost:3000/{shortened_url}
 ```
 - Redirects to the original URL.
 
