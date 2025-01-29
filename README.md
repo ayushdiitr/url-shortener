@@ -69,6 +69,14 @@ Prerequisites:
 | `url` | `string` | **Required**. URL that you want to shorten |
 
 
+#### Resolve a shortened URL
+
+```bash
+  curl -X GET http://localhost:3000/mycustom
+```
+- Redirects to the original URL.
+
+
 
 
 
